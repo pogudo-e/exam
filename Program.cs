@@ -15,7 +15,6 @@ int HowElem(string[] array)
 
 string[] NewArray(string[] array)
 {
-  //  int j = 0;
     string[] newarray = new string[HowElem(array)];
     for (int i = 0, j = 0; i < array.Length; i++)
     {
